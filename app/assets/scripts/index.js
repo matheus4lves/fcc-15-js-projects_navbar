@@ -1,5 +1,11 @@
+// Styles
 import "../styles/styles.css";
-import "@fortawesome/fontawesome-free";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
+// Scripts
+import navMenu from "./modules/navMenu";
+
+navMenu();
 
 if (module.hot) {
   module.hot.accept();
