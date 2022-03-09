@@ -41,7 +41,7 @@ if (mode === "dev") {
       },
     },
     static: {
-      directory: path.join(__dirname, "./app/public"),
+      directory: path.join(__dirname, "app"),
     },
   };
 }
